@@ -1,0 +1,9 @@
+header {
+    text-align: center;
+    padding: 150px 30px;
+    background: linear-gradient(360deg, rgba(0, 0, 0, 0.712), rgba(0, 0, 0, 0.712)), url('./assets/Jpeg/15553711955cb514bbd341d_1555371195_3x2_rt.jpg');
+    background-size: cover;
+    background-position-y: 3%;
+    color: white;
+}
+
