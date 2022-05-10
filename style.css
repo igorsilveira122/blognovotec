@@ -5,5 +5,43 @@ header {
     background-size: cover;
     background-position-y: 3%;
     color: white;
+    width: 100%;
 }
 
+.container {
+    background-color: #cecece;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.content {
+    width: 92%;
+    background-color: white;
+    padding: 30px 15%;
+    border-radius: 15px;
+    box-shadow: 0 0 25px black;
+    margin-top: -60px;
+    color: #181818;
+}
+
+.images {
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+.images img {
+    max-width: calc(100% /2.5);
+    box-shadow: 0 0 10px #0000ffde;
+}
+
+@media (max-width: 500px) {
+    .images img {
+        width: 100%;
+        max-width: 100%;
+    }
+    .images {
+        flex-wrap: wrap;
+    }
+}
